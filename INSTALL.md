@@ -10,6 +10,9 @@
 
 # fastq-join（双端序列拼接）
 
+- **简介**：fastq-join 是 ea-utils 工具包中的一个程序，用于将双端测序（paired-end）的 FASTQ 文件拼接成单端序列。在 QIIME 1.x 中，双端测序数据需要先拼接再进行后续分析——`join_paired_ends.py` 命令内部调用 fastq-join。
+- **官网**：`https://github.com/ExpressionAnalysis/ea-utils`
+
 ```bash
 tar zxf path/to/ea-utils.1.1.2-537.tar.gz -C /path/to/install/
 cd /path/to/install/ea-utils.1.1.2-537/
