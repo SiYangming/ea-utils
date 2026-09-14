@@ -1,0 +1,5 @@
+# 归档用发布包（由 Release 附件提供，不入代码树）
+ea-utils.1.1.2-537.tar.gz
+
+# macOS 系统文件
+.DS_Store
